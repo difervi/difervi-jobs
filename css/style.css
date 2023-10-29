@@ -217,6 +217,52 @@ form{
     color: #555;
 }
 
+#carouselExampleControlsNoTouching {
+    max-width: 600px; /* Establece el ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.carousel-item img {
+    border-radius: 10px; /* Agrega bordes redondeados a las imágenes del carrusel */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Agrega sombra a las imágenes del carrusel */
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 50px; /* Ancho de los botones de control */
+    height: 50px; /* Altura de los botones de control */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente de los botones de control */
+    border-radius: 50%; /* Hace que los botones de control sean circulares */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent; /* Fondo transparente de los íconos de control */
+    color: white; /* Color del ícono de control */
+}
+.carousel-indicators {
+    bottom: -40px; /* Posición desde la parte inferior */
+}
+
+.carousel-indicators button {
+    width: 12px; /* Tamaño del indicador */
+    height: 12px; /* Tamaño del indicador */
+    border-radius: 50%; /* Hace que el indicador sea circular */
+    background-color: #ddd; /* Color del indicador */
+    border: 2px solid #888; /* Borde del indicador */
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; /* Color del indicador activo */
+    border-color: #007bff; /* Borde del indicador activo */
+}
+.carousel-indicators {
+    bottom: -40px; /* Posición desde la parte inferior */
+}
+/* Establece un ancho fijo para las imágenes del carrusel */
+.carousel-item img {
+    width: 100%; /* El 100% del ancho del contenedor del carrusel */
+    height: 100; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+
 /* --------------MEDIA-------------------- */
 
 

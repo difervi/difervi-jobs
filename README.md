@@ -1,4 +1,6 @@
 DIFERVI JOBS
+
+
 Tecnologías Utilizadas
 HTML
 CSS (Flexbox y Bootstrap)
